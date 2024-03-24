@@ -7,7 +7,7 @@ let calcuatorBox = document.querySelector(".calcuatorBox")
 let btnCall = document.querySelector(".btnCall");
 let a = document.querySelector("a");
 
- let pre = +91;
+ let pre = "+91";
 btnCall.addEventListener("click",()=>{
   let ph = display.value;
   a.href = `tel:${pre} ${ph}`

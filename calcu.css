@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('https://www.involve.me/img/containers/assets/blog/website-price-calculator/website-price-calculatorL.png/6779c58a451d1979089c4d2e1ef9518c.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+::placeholder{
+    color: white;
+}
+
+.calcuatorBox{
+    width: 340px;
+    height: auto; 
+    background-color: rgba(0, 0, 0, 0.451);
+    padding-top: 30px;
+    border-radius: 12px;
+}
+h3{
+    color: antiquewhite;
+   margin-top:  -16px;
+   padding: 12px;
+   font-variant: small-caps;
+}
+.display{
+    padding: 30px 22px;
+    width: 85%;
+    border: none;
+    text-align: right;
+    font-size: 32px;
+    color: aliceblue;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    background-color: rgba(128, 128, 128, 0.444);
+    font-style: normal;
+    box-shadow: inset 4px -3px 8px 0px #462323;
+    outline: none;
+}
+.buttonList{
+padding-top: 14px;
+}
+.btn{
+    /* padding: 15px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    margin: 12px;
+    text-align: center;
+    border: none;
+    /* background-color: rgba(8, 180, 94, 0.843); */
+    background-color: white;
+    font-size: 18px;
+    color: black;
+    box-shadow: inset 2px 1px 1px 2px #b19f9f ;
+}
+.btn:hover{
+    background-color: rgba(236, 236, 37, 0.749);
+    cursor: pointer;
+}
+.digit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 12px;
+    text-align: right;
+    text-align: center;
+
+}
+.btnEqual,.btnPer,.btnPlus,.btnAC,.btnDel{
+    background-color: red;
+}
+.btn7{
+    background-color: rgba(8, 180, 94, 0.843);
+
+}
+.btnCall{
+    color: green;
+}
+/* .btnEqual,.btnPer,.btnPlus,.btnAC,.btnDel,.btnMines,.btnMulti,.btnDive{
+    background-color: red;
+} */

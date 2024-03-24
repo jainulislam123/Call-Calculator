@@ -25,7 +25,7 @@ inputDigit.addEventListener("click",(e)=>{
         calcuatorBox.style.backgroundColor="rgba(0, 255, 123, 0.451)";
         calcuatorBox.style.boxshadow="inset 2px 1px 1px 1px #524b4b";
      }else{
-         calcuatorBox.style.backgroundColor="rgba(0, 0, 0, 0.451)"; 
+         calcuatorBox.style.backgroundColor="#c5cdd5"; 
 
      }
 
